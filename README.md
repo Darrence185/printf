@@ -1,35 +1,17 @@
-### 0x15. Javascript - Web JQuery
-## Description
-What you should learn from this project:
+## #0x11. C - printf
 
- Why jQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))
- How to select HTML elements in Javascript
- How to select HTML elements with jQuery
- What are differences between ID, class and tag name selectors
- How to modify an HTML element style
- How to get and update an HTML element content
- How to modify the DOM
- How to make a GET request with jQuery Ajax
- How to make a POST request with jQuery Ajax
- How to listen/bind to DOM events
- How to listen/bind to user events
-0. No jQuery
-Write a Javascript script that updates the text color of the HTML tag HEADER to red (#FF0000):
-1. With jQuery
-Write a Javascript script that updates the text color of the HTML tag HEADER to red (#FF0000):
-2. Click and turn red
-Write a Javascript script that updates the text color of the HTML tag HEADER to red (#FF0000) when the user clicks on the tag DIV#red_header:
-3. Add .red class
-Write a Javascript script that adds the class red to the HTML tag HEADER to red (#FF0000) when the user clicks on the tag DIV#red_header:
-4. Toggle classes
-Write a Javascript script that toggles the class of the HTML tag HEADER to red (#FF0000) when the user clicks on the tag DIV#toggle_header:
-5. List of elements
-Write a Javascript script that adds a LI element to a list when the user clicks on the tag DIV#add_item:
-6. Change the text
-Write a Javascript script that updates the text of the HTML tag HEADER to “New Header!!!” when the user clicks on DIV#update_header
-7. Star wars character
-Write a Javascript script that fetches and replaces the name of this URL: https://swapi.co/api/people/5/?format=json
-8. Star Wars movies
-Write a Javascript script that fetches and lists all movies title by using this URL: https://swapi.co/api/films/?format=json
-9. Say Hello!
-Write a Javascript script that fetches and prints how to say “Hello” depending of the language: (here in French) https://fourtonfish.com/hellosalut/?lang=fr
+# Synopsis
+
+This is a simple implementation of printf function that formats and prints data
+
+# Description
+
+The _printf() function produces output according to a format which is described below. This function write its output to the stdout, the standard output stream. Returns the count of printed characters when the function is successful and -1 when the function fails.
+
+# The available convertion specifiers are:
+
+%c: Prints a single character. %s: Prints a string of characters. %d: Prints integers. %i: Prints integers. %b: Prints the binary representation of an unsigned decimal. %u: Prints unsigned integers %x: Prints the hexadecial representation of an unsigned decimal in lowercase letters %X:Prints the hexadecial representation of an unsigned decimal in uppercase letters %r: Prints a reversed string %R: Prints the Rot13 interpretation of a string
+
+# Usage
+
+All the files are to be compiled on Ubuntu 14.04 LTS Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c Include the "main.h" header file on the functions using the _printf
